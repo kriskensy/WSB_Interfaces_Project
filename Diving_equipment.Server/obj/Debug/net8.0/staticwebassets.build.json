@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "n1b1/3jSGRfUQrqpGYRzD7ciyRwQwuRwoXD06P4QKS8=",
+  "Source": "Diving_equipment.Server",
+  "BasePath": "_content/Diving_equipment.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\kkensy\\Programowanie\\_Studia WSB-NLU\\Interfaces_kurs\\Project_Labo\\diving_equipment.client\\diving_equipment.client.esproj",
+      "Version": 2,
+      "Source": "diving_equipment.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

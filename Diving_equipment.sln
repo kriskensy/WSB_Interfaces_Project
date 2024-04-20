@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diving_equipment.Server", "Diving_equipment.Server\Diving_equipment.Server.csproj", "{F37C5099-B457-4556-9E62-E42311D2674D}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "diving_equipment.client", "diving_equipment.client\diving_equipment.client.esproj", "{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F37C5099-B457-4556-9E62-E42311D2674D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37C5099-B457-4556-9E62-E42311D2674D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37C5099-B457-4556-9E62-E42311D2674D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37C5099-B457-4556-9E62-E42311D2674D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EAACD5F-3640-4B29-98ED-142FD0B20FDD}
+	EndGlobalSection
+EndGlobal

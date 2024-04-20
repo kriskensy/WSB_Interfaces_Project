@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\kkensy\\Programowanie\\_Studia WSB-NLU\\Interfaces_kurs\\Project_Labo\\Diving_equipment.Server\\..\\diving_equipment.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

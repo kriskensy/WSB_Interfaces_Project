@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kkensy\\Programowanie\\_Studia WSB-NLU\\Interfaces_kurs\\Project_Labo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}|diving_equipment.client\\diving_equipment.client.esproj|c:\\users\\kkensy\\programowanie\\_studia wsb-nlu\\interfaces_kurs\\project_labo\\diving_equipment.client\\src\\layout\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}|diving_equipment.client\\diving_equipment.client.esproj|solutionrelative:diving_equipment.client\\src\\layout\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}|diving_equipment.client\\diving_equipment.client.esproj|c:\\users\\kkensy\\programowanie\\_studia wsb-nlu\\interfaces_kurs\\project_labo\\diving_equipment.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}|diving_equipment.client\\diving_equipment.client.esproj|solutionrelative:diving_equipment.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}|diving_equipment.client\\diving_equipment.client.esproj|c:\\users\\kkensy\\programowanie\\_studia wsb-nlu\\interfaces_kurs\\project_labo\\diving_equipment.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}|diving_equipment.client\\diving_equipment.client.esproj|solutionrelative:diving_equipment.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}|diving_equipment.client\\diving_equipment.client.esproj|c:\\users\\kkensy\\programowanie\\_studia wsb-nlu\\interfaces_kurs\\project_labo\\diving_equipment.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6AC84E6E-4AF7-4FF4-8202-6F0B184A3A69}|diving_equipment.client\\diving_equipment.client.esproj|solutionrelative:diving_equipment.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\kkensy\\Programowanie\\_Studia WSB-NLU\\Interfaces_kurs\\Project_Labo\\diving_equipment.client\\src\\main.jsx",
+              "RelativeDocumentMoniker": "diving_equipment.client\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\kkensy\\Programowanie\\_Studia WSB-NLU\\Interfaces_kurs\\Project_Labo\\diving_equipment.client\\src\\main.jsx",
+              "RelativeToolTip": "diving_equipment.client\\src\\main.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-17T17:35:27.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\kkensy\\Programowanie\\_Studia WSB-NLU\\Interfaces_kurs\\Project_Labo\\diving_equipment.client\\src\\App.css",
+              "RelativeDocumentMoniker": "diving_equipment.client\\src\\App.css",
+              "ToolTip": "C:\\Users\\kkensy\\Programowanie\\_Studia WSB-NLU\\Interfaces_kurs\\Project_Labo\\diving_equipment.client\\src\\App.css",
+              "RelativeToolTip": "diving_equipment.client\\src\\App.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-17T17:30:48.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\kkensy\\Programowanie\\_Studia WSB-NLU\\Interfaces_kurs\\Project_Labo\\diving_equipment.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "diving_equipment.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\kkensy\\Programowanie\\_Studia WSB-NLU\\Interfaces_kurs\\Project_Labo\\diving_equipment.client\\src\\App.jsx",
+              "RelativeToolTip": "diving_equipment.client\\src\\App.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-17T17:27:41.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Layout.jsx",
+              "DocumentMoniker": "C:\\Users\\kkensy\\Programowanie\\_Studia WSB-NLU\\Interfaces_kurs\\Project_Labo\\diving_equipment.client\\src\\Layout\\Layout.jsx",
+              "RelativeDocumentMoniker": "diving_equipment.client\\src\\Layout\\Layout.jsx",
+              "ToolTip": "C:\\Users\\kkensy\\Programowanie\\_Studia WSB-NLU\\Interfaces_kurs\\Project_Labo\\diving_equipment.client\\src\\Layout\\Layout.jsx",
+              "RelativeToolTip": "diving_equipment.client\\src\\Layout\\Layout.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-18T18:21:21.04Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

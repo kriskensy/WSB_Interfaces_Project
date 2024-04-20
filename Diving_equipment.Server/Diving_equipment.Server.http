@@ -1,0 +1,6 @@
+@Diving_equipment.Server_HostAddress = http://localhost:5073
+
+GET {{Diving_equipment.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
