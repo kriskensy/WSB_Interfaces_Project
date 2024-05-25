@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Diving_equipment.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77250d96aa49989b9d2ed9e0a545057d8aa1b61a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c6345ab5ddcf827dc1c0e65f6dc33db50b1ef5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Diving_equipment.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Diving_equipment.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
