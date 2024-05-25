@@ -1,10 +1,62 @@
 ﻿.logo {
-    width: 170px;
-    height: 90px;
-    margin-right: 100px;
+  width: 170px;
+  height: 90px;
+  margin-right: 100px;
 }
 
 a {
-    text-decoration: none;
-    color: unset;
+  text-decoration: none;
+  color: unset;
+}
+
+body {
+  background-color: #53728b;
+}
+
+.bg-dark-blue {
+  background-color: #001f3f;
+}
+
+.text-light-blue {
+  color: #7fdbff;
+}
+
+a.text-light-blue:hover {
+  color: #0074d9;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-brand:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.accordion-item {
+  background-color: #40617a; /* Wybrany kolor tła dla accordion */
+  border-radius: 10px; /* Opcjonalne: Zaokrąglenie krawędzi dla lepszego wyglądu */
+  margin-bottom: 10px; /* Opcjonalne: Dodatkowy margines między elementami accordion */
+}
+
+.accordion-header {
+  background-color: #254e6b; /* Nowy kolor tła dla nagłówka accordionu */
+  color: white; /* Kolor tekstu */
+  border-radius: 5px; /* Zaokrąglenie krawędzi */
+  padding: 10px; /* Dodatkowy padding */
+}
+
+.accordion-body {
+  color: white; /* Kolor tekstu */
 }
