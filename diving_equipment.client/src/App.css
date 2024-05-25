@@ -45,18 +45,27 @@ a.text-light-blue:hover {
 }
 
 .accordion-item {
-  background-color: #40617a; /* Wybrany kolor tła dla accordion */
-  border-radius: 10px; /* Opcjonalne: Zaokrąglenie krawędzi dla lepszego wyglądu */
-  margin-bottom: 10px; /* Opcjonalne: Dodatkowy margines między elementami accordion */
+  background-color: #40617a;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .accordion-header {
-  background-color: #254e6b; /* Nowy kolor tła dla nagłówka accordionu */
-  color: white; /* Kolor tekstu */
-  border-radius: 5px; /* Zaokrąglenie krawędzi */
-  padding: 10px; /* Dodatkowy padding */
+  background-color: #254e6b;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .accordion-body {
-  color: white; /* Kolor tekstu */
+  color: white;
+}
+
+.input-field {
+  max-width: 400px;
+  width: 100%;
+}
+
+.datepicker-container .form-control {
+  width: 400px;
 }
