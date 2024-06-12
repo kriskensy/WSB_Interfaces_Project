@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ennckIzFneprcoX4QnnrhQzeQ3EiGgQxooCuubiFWjMFYpbjtlEWXiawH/cQQx27RpOhN1YeF7njvnq8X1g88A==",
+  "dgSpecHash": "oywen+u5Cl8=",
   "success": true,
   "projectFilePath": "C:\\Users\\kkensy\\Programowanie\\_Studia WSB-NLU\\Interfaces_kurs\\Project_Labo\\Diving_equipment.Server\\Diving_equipment.Server.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kkensy\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.4\\microsoft.aspnetcore.spaproxy.8.0.4.nupkg.sha512",
+    "C:\\Users\\kkensy\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.5\\microsoft.aspnetcore.spaproxy.8.0.5.nupkg.sha512",
     "C:\\Users\\kkensy\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\kkensy\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\kkensy\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
