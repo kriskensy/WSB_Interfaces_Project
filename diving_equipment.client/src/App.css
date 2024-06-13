@@ -69,3 +69,7 @@ a.text-light-blue:hover {
 .datepicker-container .form-control {
   width: 400px;
 }
+
+.custom-datepicker {
+  width: 400px;
+}

@@ -8,8 +8,12 @@ import Nav from "react-bootstrap/Nav";
 import Accordion from "react-bootstrap/Accordion";
 import Carousel from "react-bootstrap/Carousel";
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { useAuth } from "./Components/useAuth";
 
 function App() {
+  const { isLoggedIn } = useAuth();
+
   return (
     <Container fluid>
       <Row className="mt-3">

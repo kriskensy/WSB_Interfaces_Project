@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Diving_equipment.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f402e29fa00361e138d761d8f4277ca346e50195")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0e183eb351be7a6d81528d138db417af1eecc93")]
 [assembly: System.Reflection.AssemblyProductAttribute("Diving_equipment.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Diving_equipment.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

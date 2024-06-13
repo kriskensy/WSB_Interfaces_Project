@@ -1,5 +1,90 @@
+// import Container from "react-bootstrap/Container";
+
+// export const Jackets = () => {
+//   return <Container fluid>This is jackets view.</Container>;
+// };
+
+import React from "react";
 import Container from "react-bootstrap/Container";
+import { Card, Row, Col } from "react-bootstrap";
+
+// Przykładowa lista kamizelek nurkowych
+const jackets = [
+  {
+    id: 1,
+    name: 'Scubapro Hydros Pro',
+    manufacturer: 'Scubapro',
+    model: 'Hydros Pro',
+    type: 'BCD',
+    features: 'Modular design, durable, high buoyancy',
+    description: 'Premium buoyancy control device with innovative design',
+    image: 'path/to/scubapro_hydros_pro.jpg', // Podaj odpowiednią ścieżkę do obrazu
+  },
+  {
+    id: 2,
+    name: 'Aqualung Axiom i3',
+    manufacturer: 'Aqualung',
+    model: 'Axiom i3',
+    type: 'BCD',
+    features: 'i3 Control System, comfortable fit, integrated weights',
+    description: 'Advanced BCD with intuitive control system and integrated weights',
+    image: 'path/to/aqualung_axiom_i3.jpg', // Podaj odpowiednią ścieżkę do obrazu
+  },
+  {
+    id: 3,
+    name: 'Cressi Start Pro 2.0',
+    manufacturer: 'Cressi',
+    model: 'Start Pro 2.0',
+    type: 'BCD',
+    features: 'Durable, multiple adjustment straps, high lift capacity',
+    description: 'Reliable and robust BCD suitable for rental and training',
+    image: 'path/to/cressi_start_pro.jpg', // Podaj odpowiednią ścieżkę do obrazu
+  },
+  {
+    id: 4,
+    name: 'Mares Dragon SLS',
+    manufacturer: 'Mares',
+    model: 'Dragon SLS',
+    type: 'BCD',
+    features: 'SLS Weight System, ergonomic design, high buoyancy',
+    description: 'Comfortable and secure BCD with advanced weight system',
+    image: 'path/to/mares_dragon_sls.jpg', // Podaj odpowiednią ścieżkę do obrazu
+  },
+  {
+    id: 5,
+    name: 'Oceanic Biolite',
+    manufacturer: 'Oceanic',
+    model: 'Biolite',
+    type: 'BCD',
+    features: 'Lightweight, integrated weights, streamlined design',
+    description: 'Travel-friendly BCD with compact and lightweight construction',
+    image: 'path/to/oceanic_biolite.jpg', // Podaj odpowiednią ścieżkę do obrazu
+  }
+];
 
 export const Jackets = () => {
-  return <Container fluid>This is jackets view.</Container>;
+  return (
+    <Container fluid>
+      <h2>Dive Jackets</h2>
+      <Row>
+        {jackets.map((jacket) => (
+          <Col key={jacket.id} sm={12} md={6} lg={4} className="mb-4">
+            <Card>
+              <Card.Img variant="top" src={jacket.image} />
+              <Card.Body>
+                <Card.Title>{jacket.name}</Card.Title>
+                <Card.Text>
+                  <strong>Manufacturer:</strong> {jacket.manufacturer}<br />
+                  <strong>Model:</strong> {jacket.model}<br />
+                  <strong>Type:</strong> {jacket.type}<br />
+                  <strong>Features:</strong> {jacket.features}<br />
+                  <strong>Description:</strong> {jacket.description}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </Container>
+  );
 };

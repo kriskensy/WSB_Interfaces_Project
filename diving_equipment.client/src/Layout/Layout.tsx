@@ -16,8 +16,29 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { useAuth } from "../Components/useAuth";
 
 export function Layout() {
+  const { isLoggedIn, userEmail, login, logout } = useAuth();
+
+  const loginFormSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const emailElement = form.elements["formBasicEmail"];
+    const passwordElement = form.elements["formBasicPassword"];
+
+    if (
+      emailElement instanceof HTMLInputElement &&
+      passwordElement instanceof HTMLInputElement
+    ) {
+      const email = emailElement.value as string;
+      const password = passwordElement.value as string;
+      if (!login(email, password)) {
+        alert("Invalid credentials. Please try again.");
+      }
+    }
+  };
+
   return (
     <div className="d-flex flex-column min-vh-100">
       <header>
@@ -32,7 +53,44 @@ export function Layout() {
                 <Nav.Link as={Link} to="/">
                   Home
                 </Nav.Link>
-                <NavDropdown title="Profile" id="navbarScrollingDropdown">
+                <NavDropdown
+                  title={isLoggedIn ? userEmail : "Sign in"}
+                  id="signInDropdown"
+                  className={!isLoggedIn ? "d-block" : "d-none"}
+                >
+                  <Form className="px-4 py-3" onSubmit={loginFormSubmit}>
+                    <Form.Group controlId="formBasicEmail">
+                      <Form.Label>Email address</Form.Label>
+                      <Form.Control
+                        type="email"
+                        placeholder="Enter email"
+                        name="formBasicEmail"
+                        required
+                      />
+                    </Form.Group>
+                    <Form.Group controlId="formBasicPassword">
+                      <Form.Label>Password</Form.Label>
+                      <Form.Control
+                        type="password"
+                        placeholder="Password"
+                        name="formBasicPassword"
+                        required
+                      />
+                    </Form.Group>
+                    <Button
+                      variant="primary"
+                      type="submit"
+                      className="w-100 mt-3"
+                    >
+                      Sign in
+                    </Button>
+                  </Form>
+                </NavDropdown>
+                <NavDropdown
+                  title={isLoggedIn ? userEmail : "Profile"}
+                  id="navbarScrollingDropdown"
+                  className={isLoggedIn ? "d-block" : "d-none"}
+                >
                   <NavDropdown.Item as={Link} to="/Certificates">
                     Certificates
                   </NavDropdown.Item>
@@ -45,25 +103,8 @@ export function Layout() {
                   <NavDropdown.Item as={Link} to="/Buddys">
                     Buddys
                   </NavDropdown.Item>
-                </NavDropdown>
-                <NavDropdown title="Sign in" id="signInDropdown">
-                  <Form className="px-4 py-3">
-                    <Form.Group controlId="formBasicEmail">
-                      <Form.Label>Email address</Form.Label>
-                      <Form.Control type="email" placeholder="Enter email" />
-                    </Form.Group>
-                    <Form.Group controlId="formBasicPassword">
-                      <Form.Label>Password</Form.Label>
-                      <Form.Control type="password" placeholder="Password" />
-                    </Form.Group>
-                    <Button
-                      variant="primary"
-                      type="submit"
-                      className="w-100 mt-3"
-                    >
-                      Sign in
-                    </Button>
-                  </Form>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item onClick={logout}>Logout</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
               <Form className="d-flex">
