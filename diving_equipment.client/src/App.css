@@ -73,3 +73,11 @@ a.text-light-blue:hover {
 .custom-datepicker {
   width: 400px;
 }
+
+.category-image {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}

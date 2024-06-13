@@ -66,6 +66,7 @@ export function Layout() {
                         placeholder="Enter email"
                         name="formBasicEmail"
                         required
+                        className="w-100"
                       />
                     </Form.Group>
                     <Form.Group controlId="formBasicPassword">
@@ -75,6 +76,7 @@ export function Layout() {
                         placeholder="Password"
                         name="formBasicPassword"
                         required
+                        className="w-100"
                       />
                     </Form.Group>
                     <Button
