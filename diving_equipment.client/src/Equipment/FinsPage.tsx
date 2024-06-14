@@ -10,7 +10,7 @@ const fins = [
     size: "Medium",
     color: "Black",
     description: "Traditional heavy-duty rubber fins for strong propulsion",
-    image: "public/images/image_fin.png",
+    image: "public/images/fins/image_Scubapro Jet Fins.jpg",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const fins = [
     size: "Large",
     color: "Yellow",
     description: "Versatile open-heel fins with comfortable foot pocket",
-    image: "public/images/image_fin.png",
+    image: "public/images/fins/image_Cressi Frog Plus.jpg",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const fins = [
     size: "Small",
     color: "Blue",
     description: "High-performance channel thrust fins for efficient kicking",
-    image: "public/images/image_fin.png",
+    image: "public/images/fins/image_Mares Avanti Quattro Plus.jpg",
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const fins = [
     size: "Medium",
     color: "Red",
     description: "Innovative split fins design for reduced drag and effort",
-    image: "public/images/image_fin.png",
+    image: "public/images/fins/image_Atomic Split Fins.jpg",
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const fins = [
     color: "Green",
     description:
       "Adjustable open-heel fins with power bands for variable thrust",
-    image: "public/images/image_fin.png",
+    image: "public/images/fins/image_Aqua Lung Slingshot.jpg",
   },
 ];
 

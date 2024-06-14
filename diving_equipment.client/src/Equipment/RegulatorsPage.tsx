@@ -12,7 +12,7 @@ const regulators = [
     ports: "4 HP, 2 MP",
     description:
       "High-performance regulator designed for extreme diving conditions",
-    image: "public/images/image_regulator.png",
+    image: "public/images/regulators/image_Apeks MTX-R.jpg",
   },
   {
     id: 2,
@@ -24,19 +24,18 @@ const regulators = [
     ports: "5 HP, 2 MP",
     description:
       "Premium regulator set with excellent breathing performance and durability",
-    image: "public/images/image_regulator.png",
+    image: "public/images/regulators/image_Scubapro MK25 EVO.jpg",
   },
   {
     id: 3,
-    name: "Atomic Aquatics T3",
-    manufacturer: "Atomic Aquatics",
-    model: "T3",
-    type: "Balanced Piston",
+    name: "Cressi AC2/XS2",
+    manufacturer: "Cressi",
+    model: "AC2/XS2",
+    type: "Unbalanced Piston",
     stages: "Single",
-    ports: "2 HP, 5 LP",
-    description:
-      "Ultra-lightweight and corrosion-resistant regulator for travel and warm-water diving",
-    image: "public/images/image_regulator.png",
+    ports: "1 HP, 4 LP",
+    description: "Simple and robust regulator suitable for entry-level divers",
+    image: "public/images/regulators/image_Cressi AC2 XS2.jpg",
   },
   {
     id: 4,
@@ -48,18 +47,19 @@ const regulators = [
     ports: "2 HP, 4 LP",
     description:
       "Reliable and affordable regulator ideal for recreational diving",
-    image: "public/images/image_regulator.png",
+    image: "public/images/regulators/image_Oceanic Omega 3.jpg",
   },
   {
     id: 5,
-    name: "Cressi AC2/XS2",
-    manufacturer: "Cressi",
-    model: "AC2/XS2",
-    type: "Unbalanced Piston",
+    name: "Atomic Aquatics T3",
+    manufacturer: "Atomic Aquatics",
+    model: "T3",
+    type: "Balanced Piston",
     stages: "Single",
-    ports: "1 HP, 4 LP",
-    description: "Simple and robust regulator suitable for entry-level divers",
-    image: "public/images/image_regulator.png",
+    ports: "2 HP, 5 LP",
+    description:
+      "Ultra-lightweight and corrosion-resistant regulator for travel and warm-water diving",
+    image: "public/images/regulators/image_Atomic Aquatics T3.jpg",
   },
 ];
 

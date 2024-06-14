@@ -12,7 +12,7 @@ const accessories = [
     features: "High visibility, inflatable",
     description:
       "Inflatable dive flag buoy for increased visibility and safety.",
-    image: "public/images/image_accessory.png",
+    image: "public/images/accessories/image_Dive Flag Buoy.jpg",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const accessories = [
     features: "LED, 1000 lumens, waterproof",
     description:
       "Powerful LED flashlight with 1000 lumens, waterproof to 200 meters.",
-    image: "public/images/image_accessory.png",
+    image: "public/images/accessories/image_Underwater Flashlight.jpg",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const accessories = [
     type: "Knife",
     features: "Stainless steel, sheath included",
     description: "Durable stainless steel dive knife with a secure sheath.",
-    image: "public/images/image_accessory.png",
+    image: "public/images/accessories/image_Dive Knife.jpg",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const accessories = [
     type: "Slate",
     features: "Writable, with pencil",
     description: "Handy underwater slate for communication and note-taking.",
-    image: "public/images/image_accessory.png",
+    image: "public/images/accessories/image_Underwater Slate.jpg",
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ const accessories = [
     features: "High visibility, easy inflation",
     description:
       "High visibility surface marker buoy for safe ascents and signaling.",
-    image: "public/images/image_accessory.png",
+    image: "public/images/accessories/image_Surface Marker Buoy.png",
   },
   {
     id: 6,
@@ -65,7 +65,7 @@ const accessories = [
     features: "150 ft line, durable construction",
     description:
       "Reliable dive reel with 150 feet of line for navigation and safety.",
-    image: "public/images/image_accessory.png",
+    image: "public/images/accessories/image_Dive Reel.jpg",
   },
   {
     id: 7,
@@ -76,7 +76,7 @@ const accessories = [
     features: "Loud, easy to use",
     description:
       "Simple and effective tank banger for attracting attention underwater.",
-    image: "public/images/image_accessory.png",
+    image: "public/images/accessories/image_Tank Banger.jpg",
   },
   {
     id: 8,
@@ -86,28 +86,17 @@ const accessories = [
     type: "Compass",
     features: "High accuracy, wrist mount",
     description: "Accurate and reliable dive compass with wrist mount.",
-    image: "public/images/image_accessory.png",
+    image: "public/images/accessories/image_Dive Compass.jpg",
   },
   {
     id: 9,
-    name: "Signal Mirror",
-    manufacturer: "Nautilus",
-    model: "SM-01",
-    type: "Signal Device",
-    features: "Compact, high reflectivity",
-    description:
-      "Compact signal mirror for emergency signaling and increased safety.",
-    image: "public/images/image_accessory.png",
-  },
-  {
-    id: 10,
     name: "Dry Bag",
     manufacturer: "SealLine",
     model: "BlockerLite",
     type: "Bag",
     features: "Waterproof, lightweight",
     description: "Lightweight and waterproof dry bag for keeping gear dry.",
-    image: "public/images/image_accessory.png",
+    image: "public/images/accessories/image_Dry Bag.jpg",
   },
 ];
 

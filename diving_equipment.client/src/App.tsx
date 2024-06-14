@@ -128,147 +128,147 @@ function App() {
           </Carousel>
         </Col>
         {/* {isLoggedIn && ( */}
-          <Col xs={12} md={9}>
-            <Row className="mb-3 ms-2 me-2">
-              <Col>
-                <Link to="/regulators" className="d-block">
-                  <Card
-                    border="primary"
-                    style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
-                  >
-                    <Card.Img
-                      variant="top"
-                      src="/images/image_regulator.png"
-                      className="regulator img-fluid"
-                    />
-                    <Card.Body>
-                      <Card.Title>Regulators</Card.Title>
-                    </Card.Body>
-                  </Card>
-                </Link>
-              </Col>
+        <Col xs={12} md={9}>
+          <Row className="mb-3 ms-2 me-2">
+            <Col>
+              <Link to="/regulators" className="d-block">
+                <Card
+                  border="primary"
+                  style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
+                >
+                  <Card.Img
+                    variant="top"
+                    src="/images/image_regulator.png"
+                    className="regulator img-fluid"
+                  />
+                  <Card.Body>
+                    <Card.Title>Regulators</Card.Title>
+                  </Card.Body>
+                </Card>
+              </Link>
+            </Col>
 
-              <Col>
-                <Link to="/suits" className="d-block">
-                  <Card
-                    border="primary"
-                    style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
-                  >
-                    <Card.Img
-                      variant="top"
-                      src="/images/image_suit.png"
-                      className="suit img-fluid"
-                    />
-                    <Card.Body>
-                      <Card.Title>Suits</Card.Title>
-                    </Card.Body>
-                  </Card>
-                </Link>
-              </Col>
-              <Col>
-                <Link to="/jackets" className="d-block">
-                  <Card
-                    border="primary"
-                    style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
-                  >
-                    <Card.Img
-                      variant="top"
-                      src="/images/image_jacket.png"
-                      className="jacket img-fluid"
-                    />
-                    <Card.Body>
-                      <Card.Title>Jackets</Card.Title>
-                    </Card.Body>
-                  </Card>
-                </Link>
-              </Col>
-              <Col>
-                <Link to="/computers" className="d-block">
-                  <Card
-                    border="primary"
-                    style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
-                  >
-                    <Card.Img
-                      variant="top"
-                      src="/images/image_computer.png"
-                      className="computer img-fluid"
-                    />
-                    <Card.Body>
-                      <Card.Title>Computers</Card.Title>
-                    </Card.Body>
-                  </Card>
-                </Link>
-              </Col>
-              <Col>
-                <Link to="/masks" className="d-block">
-                  <Card
-                    border="primary"
-                    style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
-                  >
-                    <Card.Img
-                      variant="top"
-                      src="/images/image_mask.png"
-                      className="mask img-fluid"
-                    />
-                    <Card.Body>
-                      <Card.Title>Masks</Card.Title>
-                    </Card.Body>
-                  </Card>
-                </Link>
-              </Col>
-              <Col>
-                <Link to="/fins" className="d-block">
-                  <Card
-                    border="primary"
-                    style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
-                  >
-                    <Card.Img
-                      variant="top"
-                      src="/images/image_fin.png"
-                      className="fin img-fluid"
-                    />
-                    <Card.Body>
-                      <Card.Title>Fins</Card.Title>
-                    </Card.Body>
-                  </Card>
-                </Link>
-              </Col>
-              <Col>
-                <Link to="/tanks" className="d-block">
-                  <Card
-                    border="primary"
-                    style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
-                  >
-                    <Card.Img
-                      variant="top"
-                      src="/images/image_tank.png"
-                      className="tank img-fluid"
-                    />
-                    <Card.Body>
-                      <Card.Title>Tanks</Card.Title>
-                    </Card.Body>
-                  </Card>
-                </Link>
-              </Col>
-              <Col>
-                <Link to="/accessories" className="d-block">
-                  <Card
-                    border="primary"
-                    style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
-                  >
-                    <Card.Img
-                      variant="top"
-                      src="/images/image_accessory.png"
-                      className="accessory img-fluid"
-                    />
-                    <Card.Body>
-                      <Card.Title>Accessories</Card.Title>
-                    </Card.Body>
-                  </Card>
-                </Link>
-              </Col>
-            </Row>
-          </Col>
+            <Col>
+              <Link to="/suits" className="d-block">
+                <Card
+                  border="primary"
+                  style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
+                >
+                  <Card.Img
+                    variant="top"
+                    src="/images/image_suit.png"
+                    className="suit img-fluid"
+                  />
+                  <Card.Body>
+                    <Card.Title>Suits</Card.Title>
+                  </Card.Body>
+                </Card>
+              </Link>
+            </Col>
+            <Col>
+              <Link to="/jackets" className="d-block">
+                <Card
+                  border="primary"
+                  style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
+                >
+                  <Card.Img
+                    variant="top"
+                    src="/images/image_jacket.png"
+                    className="jacket img-fluid"
+                  />
+                  <Card.Body>
+                    <Card.Title>Jackets</Card.Title>
+                  </Card.Body>
+                </Card>
+              </Link>
+            </Col>
+            <Col>
+              <Link to="/computers" className="d-block">
+                <Card
+                  border="primary"
+                  style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
+                >
+                  <Card.Img
+                    variant="top"
+                    src="/images/image_computer.png"
+                    className="computer img-fluid"
+                  />
+                  <Card.Body>
+                    <Card.Title>Computers</Card.Title>
+                  </Card.Body>
+                </Card>
+              </Link>
+            </Col>
+            <Col>
+              <Link to="/masks" className="d-block">
+                <Card
+                  border="primary"
+                  style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
+                >
+                  <Card.Img
+                    variant="top"
+                    src="/images/image_mask.png"
+                    className="mask img-fluid"
+                  />
+                  <Card.Body>
+                    <Card.Title>Masks</Card.Title>
+                  </Card.Body>
+                </Card>
+              </Link>
+            </Col>
+            <Col>
+              <Link to="/fins" className="d-block">
+                <Card
+                  border="primary"
+                  style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
+                >
+                  <Card.Img
+                    variant="top"
+                    src="/images/image_fin.png"
+                    className="fin img-fluid"
+                  />
+                  <Card.Body>
+                    <Card.Title>Fins</Card.Title>
+                  </Card.Body>
+                </Card>
+              </Link>
+            </Col>
+            <Col>
+              <Link to="/tanks" className="d-block">
+                <Card
+                  border="primary"
+                  style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
+                >
+                  <Card.Img
+                    variant="top"
+                    src="/images/image_tank.png"
+                    className="tank img-fluid"
+                  />
+                  <Card.Body>
+                    <Card.Title>Tanks</Card.Title>
+                  </Card.Body>
+                </Card>
+              </Link>
+            </Col>
+            <Col>
+              <Link to="/accessories" className="d-block">
+                <Card
+                  border="primary"
+                  style={{ backgroundColor: "#d2d2d2", width: "10rem" }}
+                >
+                  <Card.Img
+                    variant="top"
+                    src="/images/image_accessory.png"
+                    className="accessory img-fluid"
+                  />
+                  <Card.Body>
+                    <Card.Title>Accessories</Card.Title>
+                  </Card.Body>
+                </Card>
+              </Link>
+            </Col>
+          </Row>
+        </Col>
         {/* )} */}
       </Row>
     </Container>

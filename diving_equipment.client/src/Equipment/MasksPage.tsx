@@ -11,7 +11,7 @@ const masks = [
     features: "Low volume, wide field of view, comfortable fit",
     description:
       "High-quality mask with a wide field of view and low volume design.",
-    image: "public/images/image_mask.png",
+    image: "public/images/masks/image_Aqua Lung Impression.jpg",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const masks = [
     features: "Inclined lenses, increased visibility, comfortable fit",
     description:
       "Innovative mask with inclined lenses for improved downward visibility.",
-    image: "public/images/image_mask.png",
+    image: "public/images/masks/image_Cressi Big Eyes Evolution.jpg",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const masks = [
     features: "Wide field of view, mirrored lenses, silicone skirt",
     description:
       "Advanced mask with mirrored lenses for increased contrast and visibility.",
-    image: "public/images/image_mask.png",
+    image: "public/images/masks/image_Mares X-Vision Ultra.jpg",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const masks = [
     features: "Trufit technology, dual lenses, comfortable fit",
     description:
       "Comfortable mask with dual lenses and Trufit technology for a secure fit.",
-    image: "public/images/image_mask.png",
+    image: "public/images/masks/image_Scubapro Synergy Twin.jpg",
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const masks = [
     features: "180-degree field of view, comfortable fit, high-quality lenses",
     description:
       "Premium mask with a wide field of view and high-quality lenses.",
-    image: "public/images/image_mask.png",
+    image: "public/images/masks/image_TUSA Freedom HD.jpg",
   },
 ];
 

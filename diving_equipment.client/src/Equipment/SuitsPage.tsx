@@ -11,7 +11,7 @@ const suits = [
     thickness: "7mm",
     features: "Thermal protection, comfortable fit, easy on and off",
     description: "High-performance wetsuit for cold water diving",
-    image: "public/images/image_suit.png",
+    image: "public/images/suits/image_Aqualung AquaFlex 7mm.jpg",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const suits = [
     thickness: "4mm",
     features: "Durable, flexible, warm, neoprene drysuit",
     description: "Top-quality drysuit designed for demanding diving conditions",
-    image: "public/images/image_suit.png",
+    image: "public/images/suits/image_Scubapro Everdry 4.jpg",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const suits = [
     thickness: "5/4/3mm",
     features: "Ergonomic, trilastic material, protection and comfort",
     description: "Versatile wetsuit for a range of water temperatures",
-    image: "public/images/image_suit.png",
+    image: "public/images/suits/image_Mares Flexa 5.4.3.jpg",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const suits = [
     thickness: "Lightweight",
     features: "Technical diving, reinforced protection, high mobility",
     description: "Advanced drysuit for technical and cave diving",
-    image: "public/images/image_suit.png",
+    image: "public/images/suits/image_Bare X-Mission Evolution.jpg",
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const suits = [
     thickness: "2mm",
     features: "Short sleeves and legs, front zipper, flexible and lightweight",
     description: "Ideal shorty wetsuit for tropical water diving",
-    image: "public/images/image_suit.png",
+    image: "public/images/suits/image_Cressi Lido 2mm.jpg",
   },
 ];
 

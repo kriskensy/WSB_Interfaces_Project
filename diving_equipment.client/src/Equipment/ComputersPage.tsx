@@ -9,7 +9,7 @@ const computers = [
     model: "i770R",
     purchaseDate: "2023-05-12",
     description: "Advanced OLED color display dive computer",
-    image: "public/images/image_computer.png",
+    image: "public/images/computers/image_Aqua Lung i770R.jpg",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const computers = [
     model: "Teric",
     purchaseDate: "2022-11-05",
     description: "High-end dive computer with full-color AMOLED display",
-    image: "public/images/image_computer.png",
+    image: "public/images/computers/image_Shearwater Teric.jpg",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const computers = [
     model: "Descent Mk2i",
     purchaseDate: "2023-01-20",
     description: "Advanced multi-sport watch and dive computer",
-    image: "public/images/image_computer.png",
+    image: "public/images/computers/image_Garmin Descent Mk2i.jpg",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const computers = [
     model: "D5",
     purchaseDate: "2022-06-18",
     description: "Compact and versatile dive computer with color display",
-    image: "public/images/image_computer.png",
+    image: "public/images/computers/image_Suunto D5.jpg",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ const computers = [
     model: "Genius",
     purchaseDate: "2023-03-10",
     description: "High-precision dive computer with full-color display",
-    image: "public/images/image_computer.png",
+    image: "public/images/computers/image_Mares Genius.jpg",
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ const computers = [
     model: "ProPlus X",
     purchaseDate: "2021-12-05",
     description: "Large screen console dive computer with intuitive interface",
-    image: "public/images/image_computer.png",
+    image: "public/images/computers/image_Oceanic ProPlus X.jpg",
   },
   {
     id: 7,
@@ -63,7 +63,7 @@ const computers = [
     model: "Giotto",
     purchaseDate: "2022-04-15",
     description: "User-friendly dive computer with high-definition screen",
-    image: "public/images/image_computer.png",
+    image: "public/images/computers/image_Cressi Giotto.jpg",
   },
   {
     id: 8,
@@ -72,7 +72,7 @@ const computers = [
     model: "iX3M Pro",
     purchaseDate: "2023-02-27",
     description: "Advanced dive computer with customizable display",
-    image: "public/images/image_computer.png",
+    image: "public/images/computers/image_Ratio iX3M Pro.jpg",
   },
 ];
 

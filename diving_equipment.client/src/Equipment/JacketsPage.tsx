@@ -10,7 +10,7 @@ const jackets = [
     type: "BCD",
     features: "Modular design, durable, high buoyancy",
     description: "Premium buoyancy control device with innovative design",
-    image: "public/images/image_jacket.png",
+    image: "public/images/jackets/image_Scubapro Hydros Pro.jpg",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const jackets = [
     features: "i3 Control System, comfortable fit, integrated weights",
     description:
       "Advanced BCD with intuitive control system and integrated weights",
-    image: "public/images/image_jacket.png",
+    image: "public/images/jackets/image_Aqualung Axiom i3.jpg",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const jackets = [
     type: "BCD",
     features: "Durable, multiple adjustment straps, high lift capacity",
     description: "Reliable and robust BCD suitable for rental and training",
-    image: "public/images/image_jacket.png",
+    image: "public/images/jackets/image_Cressi Start Pro 2.0.jpg",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const jackets = [
     type: "BCD",
     features: "SLS Weight System, ergonomic design, high buoyancy",
     description: "Comfortable and secure BCD with advanced weight system",
-    image: "public/images/image_jacket.png",
+    image: "public/images/jackets/image_Mares Dragon SLS.jpg",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const jackets = [
     features: "Lightweight, integrated weights, streamlined design",
     description:
       "Travel-friendly BCD with compact and lightweight construction",
-    image: "public/images/image_jacket.png",
+    image: "public/images/jackets/image_Oceanic Biolite.jpg",
   },
 ];
 

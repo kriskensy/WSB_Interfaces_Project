@@ -11,7 +11,7 @@ const tanks = [
     features: "Aluminum, 80 cu ft, standard valve",
     description:
       "Durable aluminum tank with standard valve, perfect for recreational diving.",
-    image: "public/images/image_tank.png",
+    image: "public/images/tanks/image_Aqua Lung Pro HD.jpg",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const tanks = [
     features: "Aluminum, 80 cu ft, lightweight design",
     description:
       "Lightweight and robust tank designed for comfort and ease of use.",
-    image: "public/images/image_tank.png",
+    image: "public/images/tanks/image_Catalina S80.jpg",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const tanks = [
     features: "Steel, 100 cu ft, high-pressure",
     description:
       "High-pressure steel tank with a large capacity for extended dive times.",
-    image: "public/images/image_tank.png",
+    image: "public/images/tanks/image_Faber HP100.jpg",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const tanks = [
     features: "Aluminum, 40 cu ft, pony bottle",
     description:
       "Compact aluminum pony bottle, ideal for redundancy and safety.",
-    image: "public/images/image_tank.png",
+    image: "public/images/tanks/image_Luxfer 40.jpg",
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const tanks = [
     features: "Steel, 112 cu ft, nitrox compatible",
     description:
       "Nitrox compatible steel tank with large capacity and excellent buoyancy characteristics.",
-    image: "public/images/image_tank.png",
+    image: "public/images/tanks/image_OMS 112.jpg",
   },
 ];
 
