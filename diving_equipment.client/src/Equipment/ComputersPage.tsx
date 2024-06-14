@@ -1,5 +1,7 @@
 import Container from "react-bootstrap/Container";
 import { Card, Row, Col } from "react-bootstrap";
+import React from "react";
+import { CategoryNav } from "../Components/CategoryNav";
 
 const computers = [
   {
@@ -79,6 +81,7 @@ const computers = [
 export const Computers = () => {
   return (
     <Container fluid>
+      <CategoryNav />
       <h2>Dive Computers</h2>
       <Row>
         {computers.map((computer) => (

@@ -1,6 +1,8 @@
 import Container from "react-bootstrap/Container";
 import { Card, Row, Col } from "react-bootstrap";
-import "../App.css";
+// import "../App.css";
+import React from "react";
+import { CategoryNav } from "../Components/CategoryNav";
 
 const accessories = [
   {
@@ -103,6 +105,7 @@ const accessories = [
 export const Accessories = () => {
   return (
     <Container fluid>
+      <CategoryNav />
       <h2>Dive Accessories</h2>
       <Row>
         {accessories.map((accessory) => (

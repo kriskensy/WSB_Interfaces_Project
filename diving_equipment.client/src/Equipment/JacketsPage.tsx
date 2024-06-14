@@ -1,5 +1,7 @@
 import Container from "react-bootstrap/Container";
 import { Card, Row, Col } from "react-bootstrap";
+import React from "react";
+import { CategoryNav } from "../Components/CategoryNav";
 
 const jackets = [
   {
@@ -59,6 +61,7 @@ const jackets = [
 export const Jackets = () => {
   return (
     <Container fluid>
+      <CategoryNav />
       <h2>Dive Jackets</h2>
       <Row>
         {jackets.map((jacket) => (

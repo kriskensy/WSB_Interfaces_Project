@@ -81,3 +81,24 @@ a.text-light-blue:hover {
   display: block;
   margin: 0 auto;
 }
+
+.category-nav {
+  padding: 10px 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.category-nav .nav-link {
+  color: rgb(0, 31, 63);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  margin: 0 15px;
+  display: inline-block;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.category-nav .nav-link:hover {
+  color: rgb(255, 255, 255, 0.75);
+  font-size: 1.6rem;
+  text-decoration: none;
+}

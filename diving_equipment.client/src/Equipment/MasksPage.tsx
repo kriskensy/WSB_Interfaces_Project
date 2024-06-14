@@ -1,5 +1,7 @@
 import Container from "react-bootstrap/Container";
 import { Card, Row, Col } from "react-bootstrap";
+import React from "react";
+import { CategoryNav } from "../Components/CategoryNav";
 
 const masks = [
   {
@@ -62,6 +64,7 @@ const masks = [
 export const Masks = () => {
   return (
     <Container fluid>
+      <CategoryNav />
       <h2>Dive Masks</h2>
       <Row>
         {masks.map((mask) => (

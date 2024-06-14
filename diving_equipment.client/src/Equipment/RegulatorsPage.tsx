@@ -1,5 +1,7 @@
 import Container from "react-bootstrap/Container";
 import { Card, Row, Col } from "react-bootstrap";
+import React from "react";
+import { CategoryNav } from "../Components/CategoryNav";
 
 const regulators = [
   {
@@ -66,6 +68,7 @@ const regulators = [
 export const Regulators = () => {
   return (
     <Container fluid>
+      <CategoryNav />
       <h2>Dive Regulators</h2>
       <Row>
         {regulators.map((regulator) => (

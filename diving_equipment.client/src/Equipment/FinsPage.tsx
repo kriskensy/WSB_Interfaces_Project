@@ -1,5 +1,7 @@
 import Container from "react-bootstrap/Container";
 import { Card, Row, Col } from "react-bootstrap";
+import React from "react";
+import { CategoryNav } from "../Components/CategoryNav";
 
 const fins = [
   {
@@ -58,6 +60,7 @@ const fins = [
 export const Fins = () => {
   return (
     <Container fluid>
+      <CategoryNav />
       <h2>Dive Fins</h2>
       <Row>
         {fins.map((fin) => (
